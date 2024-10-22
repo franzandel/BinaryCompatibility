@@ -9,7 +9,7 @@ lifecycleRuntimeKtx = "2.8.6"
 activityCompose = "1.9.3"
 composeBom = "2024.04.01"
 
-designLibrary = "2"
+designLibrary = "1"
 commonFeatures = "1"
 
 [libraries]

@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     Button(
                         modifier = Modifier.align(Alignment.Center),
                         onClick = {
-                            send(name = "Andel", address = "there")
+                            send(name = "Andel")
                             reportFeature()
                         }
                     ) {
