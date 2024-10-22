@@ -9,6 +9,6 @@ Repositories :
 
 
 Branches :
-1. [runtime-error-app-using-v2](https://github.com/franzandel/BinaryCompatibility/tree/runtime-error-app-using-v2) - use Design Library v2, while Common Features use v1
-2. [switch-dependency-v1](https://github.com/franzandel/BinaryCompatibility/tree/switch-dependency-v1) - use Design Library v1, while Common Features use v2
-3. [main](https://github.com/franzandel/CommonFeatures/tree/main) - Final solution
+1. [runtime-error-app-using-v2](https://github.com/franzandel/BinaryCompatibility/tree/runtime-error-app-using-v2) - using Design Library v2, while Common Features using v1
+2. [switch-dependency-v1](https://github.com/franzandel/BinaryCompatibility/tree/switch-dependency-v1) - using Design Library v1, while Common Features using v2
+3. [main](https://github.com/franzandel/CommonFeatures/tree/main) - Final solution (Design Library v2, Common Features v1 with Binary Incompatibility handled)
