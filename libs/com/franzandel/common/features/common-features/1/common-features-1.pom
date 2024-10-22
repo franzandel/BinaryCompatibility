@@ -39,7 +39,7 @@
     <dependency>
       <groupId>com.franzandel.design.library</groupId>
       <artifactId>design-library</artifactId>
-      <version>2</version>
+      <version>1</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
