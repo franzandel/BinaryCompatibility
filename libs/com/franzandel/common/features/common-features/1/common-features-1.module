@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.franzandel.common.features",
+    "module": "common-features",
+    "version": "1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-features-1.aar",
+          "url": "common-features-1.aar",
+          "size": 1622,
+          "sha512": "faccacb38c55eb1fee16011062e899e53f06d8783b10d7ce7d1e1033294cc2ce1d1e0169865e90ae7f595072faf9a60f565b9612aa7974d1d229893ec1dfae68",
+          "sha256": "e2514c73e6085f227d95072063702c4106d4aec17f93019c09d41f1b0411ee71",
+          "sha1": "eab8486cef52923b6ddb096a19107d26a40e3d02",
+          "md5": "cb013573db3b4f2bdb5db6850844783a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.franzandel.design.library",
+          "module": "design-library",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-features-1.aar",
+          "url": "common-features-1.aar",
+          "size": 1622,
+          "sha512": "faccacb38c55eb1fee16011062e899e53f06d8783b10d7ce7d1e1033294cc2ce1d1e0169865e90ae7f595072faf9a60f565b9612aa7974d1d229893ec1dfae68",
+          "sha256": "e2514c73e6085f227d95072063702c4106d4aec17f93019c09d41f1b0411ee71",
+          "sha1": "eab8486cef52923b6ddb096a19107d26a40e3d02",
+          "md5": "cb013573db3b4f2bdb5db6850844783a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-features-1-sources.jar",
+          "url": "common-features-1-sources.jar",
+          "size": 994,
+          "sha512": "93275162828f0d5a7fd8543159c3a3a2a03b5652b53cdb19479e12ed50eadda229cc7ff5c747ee63ef53c335ab01c0b451a0dd7982611daa53d0290907496aa3",
+          "sha256": "da81b02cc984573c322a67379828a92fc4a6652e3f3cd9d5ffcec4cac335e212",
+          "sha1": "04c452a62b07f5e4168a6cbccad9e87befad4052",
+          "md5": "950abeb49b3ff08b6ae71e8e63999c54"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-features-1-javadoc.jar",
+          "url": "common-features-1-javadoc.jar",
+          "size": 260208,
+          "sha512": "aaf5a759d46fb959ee4f1b23c2a1528a5c3701667d8ec35668bbddfd67df8b17ea71c9a56485081faa68b759b7e6ee62c862a6f24e2a82633b272ac4d75472ca",
+          "sha256": "7561bbc357c6bff8adab8b4553f7e3342672c7ac022e77d63500b5efac3c470f",
+          "sha1": "2e7032b036d511063dfabfe33de0a32c27d7704a",
+          "md5": "c2be3afe03348b082dbaffc7f03ab567"
+        }
+      ]
+    }
+  ]
+}

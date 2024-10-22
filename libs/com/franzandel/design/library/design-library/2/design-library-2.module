@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.franzandel.design.library",
+    "module": "design-library",
+    "version": "2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "design-library-2.aar",
+          "url": "design-library-2.aar",
+          "size": 2210,
+          "sha512": "47357b6880be5ac69e6cbc6c722cc1d303edb56c6fe4c0caba3b2dcd5e2e1fca3b856fb4f769e13b108675e119380179a7247004c522dce4b33695dc5d406077",
+          "sha256": "e09ebbaed0021c8d8cc71d50fafe198abd5432e656d420c28093bb7019f4e8c4",
+          "sha1": "9912663e4088edcfd74194334fbe4a0a2c24c716",
+          "md5": "acb4e5c3c6ce5707d8ad6858e2699794"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "design-library-2.aar",
+          "url": "design-library-2.aar",
+          "size": 2210,
+          "sha512": "47357b6880be5ac69e6cbc6c722cc1d303edb56c6fe4c0caba3b2dcd5e2e1fca3b856fb4f769e13b108675e119380179a7247004c522dce4b33695dc5d406077",
+          "sha256": "e09ebbaed0021c8d8cc71d50fafe198abd5432e656d420c28093bb7019f4e8c4",
+          "sha1": "9912663e4088edcfd74194334fbe4a0a2c24c716",
+          "md5": "acb4e5c3c6ce5707d8ad6858e2699794"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "design-library-2-sources.jar",
+          "url": "design-library-2-sources.jar",
+          "size": 1099,
+          "sha512": "c236dbcd5c265d9fc4675060c2138197dbec9bb5b9cabcc43f9bdc0b6a409ab8b42b6fd9ad61c4a90671a825a1f1a8aeb1677115c6a3ad5e9a59387276f2dd9f",
+          "sha256": "ed86b31b2c481bcc485929a787e99f6734422e90353b36acc9a16f104a46d01c",
+          "sha1": "34981b709a51b7f087c1f9840c8456f84f64e0cc",
+          "md5": "c115abe8f59f491b50a4cfb685cf26e9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "design-library-2-javadoc.jar",
+          "url": "design-library-2-javadoc.jar",
+          "size": 262253,
+          "sha512": "522dd5d369ac0991091f097a8f9e3ac0b7c143be631a6fad0c911694b6e0bd54bdbe25a4af20d78b22920594a6512317b5936f63be00e1f2784cb1596df5c858",
+          "sha256": "32f10c582e1c07dba2371200a5f0247f936f51994d2bcf6dc2bb52d54f96af59",
+          "sha1": "d0dfafe9b58c20c2b04ebe255706052bece5abd9",
+          "md5": "5a4e00f08581c70150637ddedea31b96"
+        }
+      ]
+    }
+  ]
+}
